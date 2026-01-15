@@ -1,0 +1,44 @@
+# OhLindinho AI — LoRA Estilo v0.0.1
+
+## Visão Geral
+- Tipo: LoRA de Estilo
+- Token: ohlindinho style
+- Base Model: SDXL
+- Resolução: 1024x1024
+
+## Dataset
+- Nº de imagens: 40
+- Origem: Artes autorais
+- Variações: poses, ângulos, expressões
+
+## Parâmetros
+- network_dim: 16
+- network_alpha: 16
+- epochs: 10
+- batch: 1 (grad_accum 4)
+- LR UNet: 1e-4
+- LR Text Encoder: 5e-5
+- Scheduler: cosine
+- min_snr_gamma: 5
+
+## Prompt de Validação
+Prompt:
+ohlindinho style, giant carnival doll character, 3/4 view, simple pose, clean background
+
+Negative:
+photorealistic, 3d, realistic, harsh shadows, text, watermark
+
+## Resultados
+- Pontos fortes:
+  - consistência de traço
+  - boa generalização
+- Limitações:
+  - tende a X em cenários Y
+
+## Decisão
+- Checkpoint escolhido: epoch X
+- Peso recomendado: 0.7–0.9
+
+## Próximos Passos
+- v1.1: ajustes finos
+- v2.0: expansão de dataset
