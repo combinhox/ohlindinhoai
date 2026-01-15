@@ -1,6 +1,6 @@
 # ohlindinhoai
 
-## Documentação para treinamento do OhLindinho (LoRA com Google Colab e RunPod, talvez CivitAI) em 1024x1024.
+## Documentação para treinamento do OhLindinhoAI (LoRA com Google Colab e RunPod, talvez CivitAI) em 1024x1024.
 
 ### Ideal pra quem tá começando a estudar LoRA.
 
@@ -26,3 +26,5 @@ Este repositório foi criado para trazer uma estrutura clara pra:
 3. Pessoas Curiosas que querem Aprender.
 4. Quem entende que IA Criativa é Processo, NÃO só Resultado.
 5. Quem trabalha com Produção de Conteúdo para Mídias Sociais.
+
+> Não é só treinar um modelo. É entender o que vc está ensinando.
